@@ -1,0 +1,138 @@
+/* todo.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: indigo; /* Set the background color to navy */
+  color: white; /* Set the text color to white */
+}
+
+/* Style for the main container */
+.main-div {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: indigo;
+}
+
+/* Style for the child container */
+.child-div {
+  /* background: #fff;
+  padding: 20px;
+  border-radius: 10px; */
+  padding: 16px;
+    padding-top: 0;
+    border-radius: 6px;
+}
+
+/* Style for the Add Your List Here text */
+figcaption {
+  padding: 6px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Style for the Add Items input and icon */
+.addItems {
+  /* display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 20px; */
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 3px;
+  background-color: #fff;
+}
+
+.addItems input[type="text"] {
+  /* width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; */
+  flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.add-icon {
+  cursor: pointer;
+  padding: 8px 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.add-icon:hover {
+  background: #0056b3;
+}
+
+/* Style for the list of items */
+.showItems {
+  margin-top: 3px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  /* align-items: center; */
+}
+
+.eachItem {
+  /* display: flex;
+  justify-content: space-between;
+  background: blue;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  background: blue;
+  margin: 3px 0;
+  padding: 8px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.eachItem h3 {
+  margin: 0;
+}
+
+.delete-icon {
+  display: flex;
+  cursor: pointer;
+  padding: 5px;
+  background: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.delete-icon:hover {
+  background: #d63030;
+}
+
+/* Style for the "Check List" button */
+.btn.effect {
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn.effect:hover {
+  background-color: #0056b3;
+}
